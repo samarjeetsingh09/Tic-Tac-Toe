@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background:url("cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers.jpg");
+    background-size: cover;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+h1{
+    margin-top: 30px;
+    color: white;
+    font-size: 50px;
+}
+.heading{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.container{
+    /* border: 2px solid ; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+  /* border: red solid 5px; */
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  backdrop-filter: blur(10px);
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: white 2px dotted;
+    box-shadow: 0px 0px 5px rgb(16, 209, 209), 0 0 25px cyan;
+    font-size: 8vmin;
+    background: rgba(0, 0, 0, 0.349);
+    color: white;
+    font-weight: 900px;
+    /* background: cyan; */
+}
+#reset-btn{
+    border: white 1px dotted;
+    padding: 12px 28px;
+    background: aqua;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #081b29;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px cyan, 0 0 25px cyan;
+}
+.new-game{
+    border: white 1px dotted;
+     padding: 12px 28px;
+    background: aqua;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #081b29;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px cyan, 0 0 25px cyan;
+}
+#reset-btn:hover {
+    box-shadow: 0px 0px 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+.new-game:hover {
+    box-shadow: 0px 0px 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+#message{
+    color: white;
+    /* box-shadow: 0px 0px 15px white;  */
+    font-size: 5vmin;
+    backdrop-filter: blur(10px);
+    width: 650px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.349);
+    border: none;
+    box-shadow: 0px 0px 10px rgb(16, 209, 209), 0 0 35px cyan,0px 0px 55px cyan,inset 0px 0px 40px  cyan;
+    font-weight: 1000px;
+
+}
+.msg{
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    /* margin-bottom: 20px; */
+}
+.hide{
+    display: none;
+}
